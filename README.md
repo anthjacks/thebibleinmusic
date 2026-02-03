@@ -2,7 +2,7 @@
 
 A freemium Christian audio streaming Progressive Web App (PWA) by Excellent Music.
 
-**Domain:** www.thebibleinmusic.com
+**Domain:** www.thebibleinmusic.org
 
 ## Features
 
