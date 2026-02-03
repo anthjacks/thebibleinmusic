@@ -77,7 +77,7 @@ A complete Progressive Web App (PWA) for streaming Bible audio and Christian mus
 1. **Deploy to Netlify or Vercel**
    - Push code to GitHub
    - Connect repository
-   - Add custom domain: www.thebibleinmusic.com
+   - Add custom domain: www.thebibleinmusic.org
    - Enable HTTPS (automatic)
 
 2. **Configure Environment Variables**

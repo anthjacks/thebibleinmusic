@@ -42,7 +42,7 @@ The app automatically shows install prompts to encourage users to add it to thei
 ### Safari Installation Steps:
 
 1. **Open Safari** (must use Safari, not Chrome)
-2. Navigate to `https://www.thebibleinmusic.com`
+2. Navigate to `https://www.thebibleinmusic.org`
 3. Tap the **Share button** (square with arrow pointing up) in the bottom toolbar
 4. Scroll down and tap **"Add to Home Screen"**
 5. (Optional) Edit the name if desired
@@ -66,7 +66,7 @@ The app automatically shows install prompts to encourage users to add it to thei
 ### Chrome Installation Steps:
 
 1. **Open Chrome** browser
-2. Navigate to `https://www.thebibleinmusic.com`
+2. Navigate to `https://www.thebibleinmusic.org`
 3. Look for the **install prompt banner** at the bottom (appears automatically)
    - OR tap the **three-dot menu** (⋮) in top right
    - Select **"Add to Home screen"** or **"Install app"**
@@ -92,7 +92,7 @@ The app automatically shows install prompts to encourage users to add it to thei
 ### Chrome/Edge Installation Steps:
 
 1. **Open Chrome or Edge** browser
-2. Navigate to `https://www.thebibleinmusic.com`
+2. Navigate to `https://www.thebibleinmusic.org`
 3. Look for the **install icon** in the address bar (⊕ or computer icon)
    - OR click the **three-dot menu**
    - Select **"Install The Bible In Music..."**

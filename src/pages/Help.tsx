@@ -37,7 +37,7 @@ export default function Help() {
                   number={1}
                   icon={<Monitor className="w-5 h-5" />}
                   title="Open Safari"
-                  description="Open this website (www.thebibleinmusic.com) in Safari browser"
+                  description="Open this website (www.thebibleinmusic.org) in Safari browser"
                 />
 
                 <Step
@@ -96,7 +96,7 @@ export default function Help() {
                   number={1}
                   icon={<Monitor className="w-5 h-5" />}
                   title="Open Chrome"
-                  description="Visit www.thebibleinmusic.com in Chrome browser"
+                  description="Visit www.thebibleinmusic.org in Chrome browser"
                 />
 
                 <Step
@@ -167,7 +167,7 @@ export default function Help() {
                   number={1}
                   icon={<Monitor className="w-5 h-5" />}
                   title="Visit the website"
-                  description="Go to www.thebibleinmusic.com in Chrome or Edge"
+                  description="Go to www.thebibleinmusic.org in Chrome or Edge"
                 />
 
                 <Step
@@ -271,10 +271,10 @@ export default function Help() {
             <p className="text-gray-600 text-sm">
               Contact us at{' '}
               <a
-                href="mailto:support@thebibleinmusic.com"
+                href="mailto:support@thebibleinmusic.org"
                 className="text-orange-600 hover:text-orange-700 font-semibold underline"
               >
-                support@thebibleinmusic.com
+                support@thebibleinmusic.org
               </a>
             </p>
           </div>

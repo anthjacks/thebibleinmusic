@@ -47,7 +47,7 @@ Your application is **100% ready for deployment**. All code is complete, tested,
 
 3. **Configure Custom Domain**
    - Go to Site settings → Domain management
-   - Add custom domain: `www.thebibleinmusic.com`
+   - Add custom domain: `www.thebibleinmusic.org`
    - Follow DNS instructions to point domain to Netlify
    - SSL certificate is automatic (required for PWA)
 
@@ -63,7 +63,7 @@ Your application is **100% ready for deployment**. All code is complete, tested,
 
 3. **Configure Custom Domain**
    - Go to Settings → Domains
-   - Add `www.thebibleinmusic.com`
+   - Add `www.thebibleinmusic.org`
    - Configure DNS according to Vercel's instructions
    - SSL is automatic
 
@@ -108,7 +108,7 @@ VITE_BACKBLAZE_BUCKET_URL=https://YOUR_BUCKET.backblazeb2.com
    - Go to Payment Links
    - Click "Create payment link"
    - Select your product
-   - Under "After payment" → Set success URL to: `https://www.thebibleinmusic.com/success?session_id={CHECKOUT_SESSION_ID}`
+   - Under "After payment" → Set success URL to: `https://www.thebibleinmusic.org/success?session_id={CHECKOUT_SESSION_ID}`
    - Copy the Payment Link URL
 
 ### Update Code with Stripe Checkout Link

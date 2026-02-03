@@ -69,7 +69,7 @@ Interactive FAQ accordion with 4 common issues:
 ### 4. **Support Section**
 
 Contact information for additional help:
-- Email: support@thebibleinmusic.com
+- Email: support@thebibleinmusic.org
 - Clean, accessible design
 
 ---

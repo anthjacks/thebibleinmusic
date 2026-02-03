@@ -22,7 +22,7 @@ const STRIPE_CHECKOUT_URL = 'https://buy.stripe.com/YOUR_CHECKOUT_LINK';
 1. Create Stripe account
 2. Create product: "Premium Lifetime Access" - $9.99
 3. Create Payment Link
-4. Set success URL: `https://www.thebibleinmusic.com/success?session_id={CHECKOUT_SESSION_ID}`
+4. Set success URL: `https://www.thebibleinmusic.org/success?session_id={CHECKOUT_SESSION_ID}`
 5. Copy the payment link URL
 
 ---
@@ -106,7 +106,7 @@ const SAMPLE_ADS: AdConfig[] = [
 - `/public/manifest.json` - Update `name`, `short_name`, `description`
 - `/index.html` - Update `<title>`, `<meta>` tags
 - `/public/robots.txt` - Update sitemap URL
-- `/public/sitemap.xml` - Update domain to `www.thebibleinmusic.com`
+- `/public/sitemap.xml` - Update domain to `www.thebibleinmusic.org`
 
 ---
 

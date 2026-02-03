@@ -1,7 +1,7 @@
 # Deployment Checklist
 ## The Bible In Music - Production Launch
 
-Use this checklist before deploying to production at www.thebibleinmusic.com
+Use this checklist before deploying to production at www.thebibleinmusic.org
 
 ---
 
@@ -108,7 +108,7 @@ Use this checklist before deploying to production at www.thebibleinmusic.com
 - [ ] Configure build settings:
   - Build command: `npm run build`
   - Output directory: `dist`
-- [ ] Set up custom domain: www.thebibleinmusic.com
+- [ ] Set up custom domain: www.thebibleinmusic.org
 - [ ] Enable HTTPS (required for PWA)
 - [ ] Configure redirects (non-www to www, etc.)
 

@@ -1,7 +1,7 @@
 # Project Summary
 ## The Bible In Music by Excellent Music
 
-**Domain:** www.thebibleinmusic.com
+**Domain:** www.thebibleinmusic.org
 
 ---
 
@@ -285,7 +285,7 @@ A freemium Christian audio streaming Progressive Web App (PWA) that provides:
    - Test ad playback
 
 5. **Domain & Hosting**
-   - Configure www.thebibleinmusic.com
+   - Configure www.thebibleinmusic.org
    - Enable HTTPS (required for PWA)
    - Deploy application
    - Configure CDN CORS

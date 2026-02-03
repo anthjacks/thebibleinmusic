@@ -407,7 +407,7 @@ Database enforces:
 ## 📞 Support
 
 For questions or issues:
-- Email: support@thebibleinmusic.com
+- Email: support@thebibleinmusic.org
 - In-app: Navigate to Help page for installation assistance
 
 ---
