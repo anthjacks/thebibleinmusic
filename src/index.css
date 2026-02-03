@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-text-primary;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  h3 {
+    @apply text-h3;
+  }
+
+  p {
+    @apply text-body;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white rounded-button h-button-std px-4 font-semibold;
+    @apply hover:bg-primary-600 active:bg-primary-700;
+    @apply transition-all duration-200;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary-lg {
+    @apply btn-primary h-button-lg px-6;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-primary text-primary bg-transparent rounded-button h-button-std px-4 font-semibold;
+    @apply hover:bg-primary hover:text-white;
+    @apply transition-all duration-200;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary-lg {
+    @apply btn-secondary h-button-lg px-6;
+  }
+
+  .card {
+    @apply bg-white rounded-card p-6 shadow-card;
+    @apply hover:shadow-card-hover;
+    @apply transition-shadow duration-300;
+  }
+
+  .container-content {
+    @apply max-w-content mx-auto px-6 lg:px-8;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg;
+    @apply focus:ring-2 focus:ring-primary focus:border-transparent;
+    @apply outline-none transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.2s ease-out;
+  }
+
+  .animate-fade-out {
+    animation: fadeOut 0.2s ease-out;
+  }
+
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-primary-600;
+  }
+
+  .bg-gradient-secondary {
+    @apply bg-gradient-to-r from-secondary to-secondary-600;
+  }
+
+  .spacing-base {
+    @apply space-y-base;
+  }
+
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  .smooth-transition {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  .lazy-load {
+    @apply opacity-0 transition-opacity duration-300;
+  }
+
+  .lazy-load-loaded {
+    @apply opacity-100;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary;
+}
+
+img[loading="lazy"] {
+  @apply lazy-load;
+}
+
+img[loading="lazy"].loaded {
+  @apply lazy-load-loaded;
+}

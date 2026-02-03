@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="100" fill="#FF8C42"/>
+
+  <!-- Bible book -->
+  <rect x="140" y="140" width="232" height="280" rx="8" fill="white"/>
+  <rect x="252" y="140" width="4" height="280" fill="#FF8C42"/>
+
+  <!-- Music note -->
+  <circle cx="360" cy="280" r="32" fill="#FF8C42"/>
+  <circle cx="320" cy="300" r="32" fill="#FF8C42"/>
+  <rect x="356" y="180" width="8" height="100" fill="#FF8C42"/>
+  <rect x="316" y="200" width="8" height="100" fill="#FF8C42"/>
+  <path d="M 324 200 L 364 180 L 364 200 L 324 220 Z" fill="#FF8C42"/>
+
+  <!-- Decorative cross -->
+  <rect x="180" y="200" width="40" height="8" rx="4" fill="#FF8C42"/>
+  <rect x="196" y="184" width="8" height="40" rx="4" fill="#FF8C42"/>
+</svg>
